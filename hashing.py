@@ -23,6 +23,7 @@ hex_dig = hash_object.hexdigest()
 # Fake_DB acts as a representation of a database (RDBMS)
 Fake_DB = [hex_dig]
 
+# Use conditionals to check the two hashes
 if hex_pass in Fake_DB:
     print("Logged in ..........")
 else:   
